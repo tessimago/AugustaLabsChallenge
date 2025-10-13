@@ -11,5 +11,10 @@ Maybe later I'll use GPT to give me explanations and examples of what you want.
 -> 9:30 - 11:00
 Gonna tutor someone next door (unrelated, but her mom is paying me to do it so..)
 
--> 11:00 - 12:00
-Gonna go to the gym while crying about still now knowing anything about incentives
+-> 11:00 - 11:30
+Creating a git repo to later work on this
+Helping my mom quit her job (long story)
+
+-> 11:30 - 12:30
+Gonna go to the gym while asking deepseek what incentives are, what they mean, and how does that relate to the csv's given.
+
