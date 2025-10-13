@@ -37,3 +37,32 @@ On my way to college I saw some videos on RAG to refresh my memory on how it wor
 Meetings at college, some giving me more work than the ones I already had, prolly will work on those later
 Other meetings was just saying that the meetings will now happen on another day (what a complete waste of time)
 I'm going home (probably one more hour or so to come back)
+
+-> 17:00 - 18:30
+Finally home, first train was full so had to take another
+
+-> 18:30 - 19:30
+Some house chores.. and helping family with stuff...
+
+-> 19:30 - 21:15
+Heated my dinner and finally gonna start testing some stuff
+20:18 - daam i just found out there are paid embedding models on openai, really thought everyone used bge or some hugging face one with some training or something
+I tested some code on RAG to see if I grasp a bit more of that
+
+-> 21:15 - 21:50
+Break, because someone called me
+
+-> 21:50 - 00:30
+Testing a bit more with RAG and a random PDF
+Trying to understand why rag is so bad, is it just bad querys? or bad models? idk.. i'll look into that later
+Install postgres to start thinking about how to put this on that database that I haven't used since forever
+Maybe procrastinate for 30 minutos on youtube
+Make the database they asked about with all the table information and stuff
+Maybe or maybe not used deepseek to help me around sql (i never needed to learn postgres in depht, but i can if needed for the job *cof*)
+Going to sleep thinking about how will I even make this work, should I save the embedings on postgres? is that even possible? I only used Chroma so far, i guess its another question to deepseek..
+I guess the chunks will be easier to separate, no overlap needed as well, hmm.. I have a feeling the rag will do a terrible job and I'll need to improv a better solution or something.
+
+-> 00:30 - 08:30
+Sleep
+
+
