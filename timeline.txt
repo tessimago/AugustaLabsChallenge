@@ -1,3 +1,5 @@
+October 13, 2025
+
 -> 8:50 - 9:00
 Reads. Get's scared bcz don't know anything about company incentives.
 Runs to take breakfast.
@@ -11,10 +13,26 @@ Maybe later I'll use GPT to give me explanations and examples of what you want.
 -> 9:30 - 11:00
 Gonna tutor someone next door (unrelated, but her mom is paying me to do it so..)
 
--> 11:00 - 11:30
+-> 11:00 - 11:15
 Creating a git repo to later work on this
-Helping my mom quit her job (long story)
 
--> 11:30 - 12:30
+-> 11:15 - 12:15
+Personal family matters
+
+
+-> 12:15 - 13:00
 Gonna go to the gym while asking deepseek what incentives are, what they mean, and how does that relate to the csv's given.
+Eventually I got what incentives are, and what is the purpose of this project.
+In my head this is just a matchmaking thing with a chatbot above it.
+So basically RAG 101, there may be a twist to it but I'll maybe find out later
+
+-> 13:00 - 13:30
+Lunch
+
+-> 13:30 - 14:30
+Going to college, because I have like 3 meetings today, and they like to waste my time by making me phisically going instead of just doing them online.
+On my way to college I saw some videos on RAG to refresh my memory on how it works, since the last time I used it was 2 years ago.
+
+
+
 
