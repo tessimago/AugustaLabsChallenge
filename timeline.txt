@@ -92,7 +92,40 @@ Break
 -> 10:40 - 11:15
 Ok, made a class embedder to call openai embedder and to keep track of how much I spent in tokens and money (excluding batch calls, so the total money may be less)
 
--> 11:15 - ??
+-> 11:15 - 12:20
 Gonna prepare lunch now, while thinking and searching on how to make this work now on postgres, seems to easy to just throw the embeddings on a table togheter with the companies...
 From what i'm looking, I need a pgvector extension, sounds incredibly usefull. No ideia how to get it tho.
 Gonna see some videos on how to setup that..
+All videos are using docker, imma be different guy and not use it (i never really liked using docker anyways)
+Hope it works when i test it tho, otherwise imma just cry
+Eating lunch
+
+-> 12:20 - 12:45
+Washing the dishes
+A bit of Procrastination
+
+-> 12:45 - 14:00
+Ok just installed the pgvector extension: https://github.com/pgvector/pgvector
+Testing in companies table some values (just to not embed all of them and waste money), and embeddings seem to be there.. now I may test if I can find them with similarity search
+
+Nice, I got my first success RAG search! (i guess)
+By now I can send a query like: "Industrias de distribuição de gás"
+And I successfully got TAXIGÁS as the first result, along with NEVE-GÁS (there are 250k samples, but I tested with 1k for this example.)
+
+-> 14:00 - 14:45
+Break for Professional matters (there's money on the line)
+
+-> 14:45 - 16:45
+Ok gotta add the 250k embeddings to the postgres, spend something around 60 cents..
+I'm noticing (I already did but now I'm thinking more about it) that the table for incentives does not have the "all_data" which could be usefull in some way... Oh well that's what they asked for so.. in normal situations I would ask a superior more clarifications like: Do I have to search for incentives with rag as well? Does the user select an incentive and then ask for companies that are matching with that incentive? Does the oposite search happens? (Which would be much more usefull)
+They say the goal is: "Desenvolver um sistema que permita identificar, para cada incentivo público existente em Portugal, as empresas mais adequadas" which suggests we already have the incentives.. and with them find companies...
+BUT then they say: "... bem como disponibilizar um chatbot capaz de responder a perguntas sobre a informação contida na base de dados."
+which suggests the chatbot should be able to answer questions about any info on the db, including incentives... arr what a headache
+
+Well I guess i'll use some other way to get incentives since there are only 500.. like text comparisson or something
+I guess I could ask to find by id or by name, and then do the rest..
+
+Ok I made querying by name and id possible.. as well as querying the companies.. now I just need to bundle all of that I suppose
+Also filled all 250k embeddings of the companies, it took some time... but at least now if one wants to add a company, it only has to embedd that information once.
+
+-> 16:45 - 
