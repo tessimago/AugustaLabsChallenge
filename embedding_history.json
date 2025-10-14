@@ -1,0 +1,1978 @@
+[
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 10:57:01.717875",
+        "input_tokens": 4,
+        "token_count": 4,
+        "money_cost": 8e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 10:59:57.071098",
+        "input_tokens": 4,
+        "token_count": 4,
+        "money_cost": 8e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:10:53.388927",
+        "token_count": 4,
+        "money_cost": 8e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:11:36.552686",
+        "token_count": 4,
+        "money_cost": 8e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:12:06.967437",
+        "token_count": 4,
+        "money_cost": 8e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:12:52.335812",
+        "token_count": 769,
+        "money_cost": 1.5380000000000002e-05
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:13:48.207563",
+        "token_count": 764914,
+        "money_cost": 0.015298280000000001
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 11:15:17.809451",
+        "token_count": 76484,
+        "money_cost": 0.00152968
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 13:33:25.514627",
+        "token_count": 1854,
+        "money_cost": 3.708e-05
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 13:35:37.678547",
+        "token_count": 1854,
+        "money_cost": 3.708e-05
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 13:37:07.471063",
+        "token_count": 1854,
+        "money_cost": 3.708e-05
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 13:37:49.800599",
+        "token_count": 1854,
+        "money_cost": 3.708e-05
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 13:58:39.212159",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:00:59.250073",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:01:29.579962",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:02:57.346316",
+        "token_count": 12395,
+        "money_cost": 0.0002479
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:02:58.363356",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:03:30.127120",
+        "token_count": 106521,
+        "money_cost": 0.00213042
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 14:03:34.369122",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:14:54.149785",
+        "token_count": 106519,
+        "money_cost": 0.0021303800000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:15:10.394077",
+        "token_count": 107546,
+        "money_cost": 0.00215092
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:16:04.861537",
+        "token_count": 102696,
+        "money_cost": 0.00205392
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:16:22.070467",
+        "token_count": 106517,
+        "money_cost": 0.00213034
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:16:34.179731",
+        "token_count": 106322,
+        "money_cost": 0.00212644
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:16:46.955725",
+        "token_count": 100704,
+        "money_cost": 0.00201408
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:16:59.690454",
+        "token_count": 108084,
+        "money_cost": 0.00216168
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:17:11.513536",
+        "token_count": 102235,
+        "money_cost": 0.0020447
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:17:24.320219",
+        "token_count": 107292,
+        "money_cost": 0.00214584
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:17:37.975682",
+        "token_count": 103512,
+        "money_cost": 0.00207024
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:18:43.602967",
+        "token_count": 103456,
+        "money_cost": 0.00206912
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:18:57.526647",
+        "token_count": 106948,
+        "money_cost": 0.00213896
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:19:09.845095",
+        "token_count": 101556,
+        "money_cost": 0.00203112
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:19:23.540641",
+        "token_count": 99838,
+        "money_cost": 0.00199676
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:19:36.288721",
+        "token_count": 101843,
+        "money_cost": 0.00203686
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:19:48.259509",
+        "token_count": 105095,
+        "money_cost": 0.0021019000000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:00.298326",
+        "token_count": 96220,
+        "money_cost": 0.0019244000000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:03.553539",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:12.670844",
+        "token_count": 98860,
+        "money_cost": 0.0019772
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:24.843410",
+        "token_count": 101855,
+        "money_cost": 0.0020371
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:34.206508",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:36.919070",
+        "token_count": 102471,
+        "money_cost": 0.00204942
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:20:49.784581",
+        "token_count": 113388,
+        "money_cost": 0.00226776
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:21:03.582802",
+        "token_count": 116425,
+        "money_cost": 0.0023285
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:21:16.251767",
+        "token_count": 104332,
+        "money_cost": 0.00208664
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:21:29.203050",
+        "token_count": 106360,
+        "money_cost": 0.0021271999999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:21:44.179334",
+        "token_count": 104789,
+        "money_cost": 0.00209578
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:21:56.105743",
+        "token_count": 108629,
+        "money_cost": 0.00217258
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:22:08.418064",
+        "token_count": 102850,
+        "money_cost": 0.002057
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:22:20.620554",
+        "token_count": 108202,
+        "money_cost": 0.00216404
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:22:33.603118",
+        "token_count": 102324,
+        "money_cost": 0.00204648
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:22:46.393843",
+        "token_count": 102019,
+        "money_cost": 0.00204038
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:22:59.266576",
+        "token_count": 104654,
+        "money_cost": 0.0020930799999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:23:11.420045",
+        "token_count": 98129,
+        "money_cost": 0.00196258
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:23:24.128616",
+        "token_count": 97996,
+        "money_cost": 0.00195992
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:23:36.673476",
+        "token_count": 111440,
+        "money_cost": 0.0022288
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:23:49.638649",
+        "token_count": 101476,
+        "money_cost": 0.00202952
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:24:02.002052",
+        "token_count": 103681,
+        "money_cost": 0.00207362
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:24:15.409313",
+        "token_count": 106389,
+        "money_cost": 0.00212778
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:24:27.505202",
+        "token_count": 96566,
+        "money_cost": 0.00193132
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:24:40.508905",
+        "token_count": 95448,
+        "money_cost": 0.0019089600000000001
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:24:54.093985",
+        "token_count": 99354,
+        "money_cost": 0.00198708
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:25:07.078097",
+        "token_count": 97987,
+        "money_cost": 0.00195974
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:25:20.139967",
+        "token_count": 101134,
+        "money_cost": 0.0020226800000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:25:32.557902",
+        "token_count": 106883,
+        "money_cost": 0.00213766
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:25:45.194103",
+        "token_count": 108968,
+        "money_cost": 0.00217936
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:25:57.051303",
+        "token_count": 109957,
+        "money_cost": 0.00219914
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:26:09.831628",
+        "token_count": 110128,
+        "money_cost": 0.00220256
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:26:23.906678",
+        "token_count": 108101,
+        "money_cost": 0.00216202
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:26:36.153581",
+        "token_count": 104198,
+        "money_cost": 0.00208396
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:26:47.748212",
+        "token_count": 100108,
+        "money_cost": 0.0020021600000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:27:00.911420",
+        "token_count": 97055,
+        "money_cost": 0.0019411
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:27:13.432898",
+        "token_count": 102400,
+        "money_cost": 0.002048
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:27:25.165719",
+        "token_count": 100184,
+        "money_cost": 0.00200368
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:27:37.941664",
+        "token_count": 97393,
+        "money_cost": 0.00194786
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:27:50.753356",
+        "token_count": 98756,
+        "money_cost": 0.00197512
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:28:03.271855",
+        "token_count": 96068,
+        "money_cost": 0.0019213600000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:28:15.178008",
+        "token_count": 101118,
+        "money_cost": 0.00202236
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:28:28.503358",
+        "token_count": 100692,
+        "money_cost": 0.0020138400000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:28:40.314964",
+        "token_count": 100970,
+        "money_cost": 0.0020194
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:28:54.298753",
+        "token_count": 100682,
+        "money_cost": 0.00201364
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:29:07.187468",
+        "token_count": 96390,
+        "money_cost": 0.0019278
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:29:20.894377",
+        "token_count": 108800,
+        "money_cost": 0.002176
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:29:33.015393",
+        "token_count": 107166,
+        "money_cost": 0.00214332
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:29:50.740893",
+        "token_count": 99232,
+        "money_cost": 0.00198464
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:30:03.499723",
+        "token_count": 102688,
+        "money_cost": 0.0020537600000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:30:16.438120",
+        "token_count": 107477,
+        "money_cost": 0.00214954
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:30:30.270865",
+        "token_count": 103022,
+        "money_cost": 0.00206044
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:30:42.600265",
+        "token_count": 97545,
+        "money_cost": 0.0019509
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:30:54.411886",
+        "token_count": 102342,
+        "money_cost": 0.0020468400000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:31:07.790927",
+        "token_count": 103429,
+        "money_cost": 0.00206858
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:31:20.429698",
+        "token_count": 103374,
+        "money_cost": 0.00206748
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:31:31.415416",
+        "token_count": 103416,
+        "money_cost": 0.0020683200000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:31:43.473833",
+        "token_count": 100056,
+        "money_cost": 0.0020011200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:31:56.935835",
+        "token_count": 104230,
+        "money_cost": 0.0020846
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:32:10.944520",
+        "token_count": 105345,
+        "money_cost": 0.0021069
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:32:24.495176",
+        "token_count": 105790,
+        "money_cost": 0.0021158
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:32:37.836873",
+        "token_count": 105992,
+        "money_cost": 0.00211984
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:32:50.606848",
+        "token_count": 109580,
+        "money_cost": 0.0021915999999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:33:02.361208",
+        "token_count": 104942,
+        "money_cost": 0.0020988400000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:33:14.499454",
+        "token_count": 107328,
+        "money_cost": 0.00214656
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:33:28.738539",
+        "token_count": 114270,
+        "money_cost": 0.0022854
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:33:41.641907",
+        "token_count": 104828,
+        "money_cost": 0.00209656
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:33:53.569786",
+        "token_count": 105998,
+        "money_cost": 0.00211996
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:34:07.498799",
+        "token_count": 106666,
+        "money_cost": 0.00213332
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:34:20.372517",
+        "token_count": 107815,
+        "money_cost": 0.0021563000000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:34:32.912043",
+        "token_count": 104266,
+        "money_cost": 0.0020853200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:34:46.311376",
+        "token_count": 103786,
+        "money_cost": 0.00207572
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:34:58.860494",
+        "token_count": 101189,
+        "money_cost": 0.0020237799999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:35:11.162228",
+        "token_count": 111940,
+        "money_cost": 0.0022388
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:35:25.968230",
+        "token_count": 106155,
+        "money_cost": 0.0021230999999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:35:38.214001",
+        "token_count": 108974,
+        "money_cost": 0.00217948
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:35:51.506957",
+        "token_count": 99002,
+        "money_cost": 0.0019800399999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:36:04.769247",
+        "token_count": 100726,
+        "money_cost": 0.00201452
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:36:21.180892",
+        "token_count": 103974,
+        "money_cost": 0.00207948
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:36:36.375525",
+        "token_count": 108322,
+        "money_cost": 0.00216644
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:36:48.300795",
+        "token_count": 108046,
+        "money_cost": 0.00216092
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:37:02.096337",
+        "token_count": 106355,
+        "money_cost": 0.0021271
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:37:25.071090",
+        "token_count": 104091,
+        "money_cost": 0.0020818200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:37:39.326340",
+        "token_count": 98961,
+        "money_cost": 0.00197922
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:37:53.407169",
+        "token_count": 103615,
+        "money_cost": 0.0020723
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:38:06.970087",
+        "token_count": 111243,
+        "money_cost": 0.00222486
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:38:22.160444",
+        "token_count": 104145,
+        "money_cost": 0.0020829
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:38:35.344593",
+        "token_count": 106668,
+        "money_cost": 0.00213336
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:38:48.677502",
+        "token_count": 99459,
+        "money_cost": 0.00198918
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:39:02.104610",
+        "token_count": 105972,
+        "money_cost": 0.00211944
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:39:14.598907",
+        "token_count": 99688,
+        "money_cost": 0.00199376
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:39:28.166212",
+        "token_count": 107963,
+        "money_cost": 0.00215926
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:39:41.140316",
+        "token_count": 106152,
+        "money_cost": 0.00212304
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:39:54.100326",
+        "token_count": 112692,
+        "money_cost": 0.00225384
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:40:06.334157",
+        "token_count": 106969,
+        "money_cost": 0.00213938
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:40:20.449346",
+        "token_count": 103345,
+        "money_cost": 0.0020669
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:40:33.102606",
+        "token_count": 100552,
+        "money_cost": 0.00201104
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:40:45.925069",
+        "token_count": 102145,
+        "money_cost": 0.0020429000000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:41:00.297646",
+        "token_count": 105097,
+        "money_cost": 0.00210194
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:41:13.182138",
+        "token_count": 105457,
+        "money_cost": 0.00210914
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:41:26.306637",
+        "token_count": 104290,
+        "money_cost": 0.0020858
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:41:42.732069",
+        "token_count": 107084,
+        "money_cost": 0.00214168
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:41:55.741201",
+        "token_count": 104578,
+        "money_cost": 0.00209156
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:42:07.195683",
+        "token_count": 109485,
+        "money_cost": 0.0021897
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:44:43.090680",
+        "token_count": 106411,
+        "money_cost": 0.00212822
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:44:56.041260",
+        "token_count": 107783,
+        "money_cost": 0.0021556599999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:45:11.176109",
+        "token_count": 106185,
+        "money_cost": 0.0021236999999999996
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:45:19.432158",
+        "token_count": 9,
+        "money_cost": 1.8e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:45:22.778303",
+        "token_count": 109341,
+        "money_cost": 0.0021868200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:45:35.413733",
+        "token_count": 107208,
+        "money_cost": 0.00214416
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:45:50.390530",
+        "token_count": 104414,
+        "money_cost": 0.00208828
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:46:06.170427",
+        "token_count": 109505,
+        "money_cost": 0.0021901
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:46:19.430724",
+        "token_count": 104483,
+        "money_cost": 0.0020896599999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:46:34.131477",
+        "token_count": 106381,
+        "money_cost": 0.0021276199999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:46:49.266600",
+        "token_count": 107582,
+        "money_cost": 0.00215164
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:47:07.942478",
+        "token_count": 103572,
+        "money_cost": 0.00207144
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:47:23.901263",
+        "token_count": 106539,
+        "money_cost": 0.00213078
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:47:37.229144",
+        "token_count": 101508,
+        "money_cost": 0.00203016
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:47:55.849100",
+        "token_count": 102629,
+        "money_cost": 0.00205258
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:48:10.671849",
+        "token_count": 109777,
+        "money_cost": 0.00219554
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:48:25.169203",
+        "token_count": 111868,
+        "money_cost": 0.0022373600000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:48:38.457983",
+        "token_count": 104048,
+        "money_cost": 0.00208096
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:48:52.340341",
+        "token_count": 108416,
+        "money_cost": 0.00216832
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:49:10.338836",
+        "token_count": 110258,
+        "money_cost": 0.00220516
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:49:27.412154",
+        "token_count": 104926,
+        "money_cost": 0.00209852
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:49:43.947642",
+        "token_count": 102604,
+        "money_cost": 0.00205208
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:49:57.921146",
+        "token_count": 102769,
+        "money_cost": 0.0020553800000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:50:15.325397",
+        "token_count": 101421,
+        "money_cost": 0.00202842
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:50:30.330604",
+        "token_count": 108783,
+        "money_cost": 0.00217566
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:57:04.611057",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 15:58:43.795679",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:01:21.489448",
+        "token_count": 110906,
+        "money_cost": 0.00221812
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:01:34.047476",
+        "token_count": 114543,
+        "money_cost": 0.00229086
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:01:45.831960",
+        "token_count": 109417,
+        "money_cost": 0.00218834
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:01:59.323403",
+        "token_count": 121618,
+        "money_cost": 0.00243236
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:02:11.866094",
+        "token_count": 117662,
+        "money_cost": 0.0023532400000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:02:23.711388",
+        "token_count": 109080,
+        "money_cost": 0.0021816
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:02:34.946688",
+        "token_count": 115694,
+        "money_cost": 0.00231388
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:02:47.033578",
+        "token_count": 109217,
+        "money_cost": 0.0021843400000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:02:58.433069",
+        "token_count": 110858,
+        "money_cost": 0.0022171599999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:03:12.066620",
+        "token_count": 115441,
+        "money_cost": 0.00230882
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:03:24.908079",
+        "token_count": 115044,
+        "money_cost": 0.00230088
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:03:36.301607",
+        "token_count": 115965,
+        "money_cost": 0.0023193000000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:03:48.009071",
+        "token_count": 114529,
+        "money_cost": 0.00229058
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:03:59.857501",
+        "token_count": 110271,
+        "money_cost": 0.00220542
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:04:12.201186",
+        "token_count": 116816,
+        "money_cost": 0.0023363200000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:04:23.829422",
+        "token_count": 117134,
+        "money_cost": 0.0023426799999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:04:36.507435",
+        "token_count": 119177,
+        "money_cost": 0.00238354
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:04:48.508182",
+        "token_count": 117723,
+        "money_cost": 0.00235446
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:00.541636",
+        "token_count": 120096,
+        "money_cost": 0.00240192
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:12.284437",
+        "token_count": 116398,
+        "money_cost": 0.00232796
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:23.005524",
+        "token_count": 111510,
+        "money_cost": 0.0022302000000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:35.062445",
+        "token_count": 108307,
+        "money_cost": 0.00216614
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:47.135781",
+        "token_count": 107744,
+        "money_cost": 0.00215488
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:05:58.762278",
+        "token_count": 106511,
+        "money_cost": 0.0021302200000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:06:11.095966",
+        "token_count": 116699,
+        "money_cost": 0.00233398
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:06:23.046041",
+        "token_count": 111230,
+        "money_cost": 0.0022245999999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:06:37.769581",
+        "token_count": 111265,
+        "money_cost": 0.0022253000000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:06:51.114197",
+        "token_count": 115849,
+        "money_cost": 0.00231698
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:07:03.969144",
+        "token_count": 112036,
+        "money_cost": 0.0022407200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:07:15.902409",
+        "token_count": 114251,
+        "money_cost": 0.00228502
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:07:28.351794",
+        "token_count": 124596,
+        "money_cost": 0.00249192
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:07:40.645254",
+        "token_count": 111777,
+        "money_cost": 0.00223554
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:07:53.100982",
+        "token_count": 116789,
+        "money_cost": 0.0023357800000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:08:05.845088",
+        "token_count": 114008,
+        "money_cost": 0.00228016
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:08:18.351702",
+        "token_count": 112971,
+        "money_cost": 0.0022594200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:08:30.551086",
+        "token_count": 110832,
+        "money_cost": 0.0022166399999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:08:42.945888",
+        "token_count": 117424,
+        "money_cost": 0.00234848
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:08:54.864825",
+        "token_count": 113754,
+        "money_cost": 0.00227508
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:09:07.135109",
+        "token_count": 115253,
+        "money_cost": 0.00230506
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:09:18.684347",
+        "token_count": 117981,
+        "money_cost": 0.0023596199999999998
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:09:31.802363",
+        "token_count": 109734,
+        "money_cost": 0.0021946799999999996
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:09:45.017509",
+        "token_count": 112552,
+        "money_cost": 0.00225104
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:09:57.905473",
+        "token_count": 109826,
+        "money_cost": 0.00219652
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:10:11.152598",
+        "token_count": 111468,
+        "money_cost": 0.00222936
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:10:24.051848",
+        "token_count": 113835,
+        "money_cost": 0.0022767000000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:10:36.298843",
+        "token_count": 117763,
+        "money_cost": 0.00235526
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:10:48.679687",
+        "token_count": 111428,
+        "money_cost": 0.00222856
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:10:59.956736",
+        "token_count": 115896,
+        "money_cost": 0.0023179200000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:11:12.981706",
+        "token_count": 116564,
+        "money_cost": 0.0023312800000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:11:25.520234",
+        "token_count": 115524,
+        "money_cost": 0.00231048
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:11:38.213902",
+        "token_count": 123598,
+        "money_cost": 0.00247196
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:11:52.174920",
+        "token_count": 121293,
+        "money_cost": 0.00242586
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:12:07.366718",
+        "token_count": 112761,
+        "money_cost": 0.00225522
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:12:22.609314",
+        "token_count": 118797,
+        "money_cost": 0.00237594
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:12:36.175269",
+        "token_count": 114525,
+        "money_cost": 0.0022905
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:12:49.060148",
+        "token_count": 118728,
+        "money_cost": 0.00237456
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:13:03.884285",
+        "token_count": 117538,
+        "money_cost": 0.0023507600000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:13:16.464805",
+        "token_count": 116677,
+        "money_cost": 0.00233354
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:13:30.731619",
+        "token_count": 120155,
+        "money_cost": 0.0024031
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:13:43.861718",
+        "token_count": 117787,
+        "money_cost": 0.0023557400000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:13:55.226612",
+        "token_count": 110975,
+        "money_cost": 0.0022195
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:14:06.700617",
+        "token_count": 110867,
+        "money_cost": 0.00221734
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:14:19.628313",
+        "token_count": 117666,
+        "money_cost": 0.0023533200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:14:31.680764",
+        "token_count": 117677,
+        "money_cost": 0.00235354
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:14:44.429140",
+        "token_count": 118043,
+        "money_cost": 0.00236086
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:14:57.445522",
+        "token_count": 114234,
+        "money_cost": 0.00228468
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:15:09.765931",
+        "token_count": 120838,
+        "money_cost": 0.00241676
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:15:21.827325",
+        "token_count": 113283,
+        "money_cost": 0.00226566
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:15:34.885556",
+        "token_count": 120777,
+        "money_cost": 0.00241554
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:15:48.532802",
+        "token_count": 118128,
+        "money_cost": 0.00236256
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:16:02.457345",
+        "token_count": 119594,
+        "money_cost": 0.0023918800000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:16:14.625735",
+        "token_count": 116076,
+        "money_cost": 0.00232152
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:16:26.190001",
+        "token_count": 108168,
+        "money_cost": 0.00216336
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:16:38.530430",
+        "token_count": 107300,
+        "money_cost": 0.002146
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:16:50.192430",
+        "token_count": 105795,
+        "money_cost": 0.0021159
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:17:03.221684",
+        "token_count": 105085,
+        "money_cost": 0.0021016999999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:17:16.360736",
+        "token_count": 109041,
+        "money_cost": 0.00218082
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:17:28.732965",
+        "token_count": 113132,
+        "money_cost": 0.00226264
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:17:40.537153",
+        "token_count": 111936,
+        "money_cost": 0.0022387200000000005
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:17:52.802276",
+        "token_count": 114906,
+        "money_cost": 0.00229812
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:18:05.737131",
+        "token_count": 110509,
+        "money_cost": 0.00221018
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:18:19.475709",
+        "token_count": 118873,
+        "money_cost": 0.00237746
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:18:31.472436",
+        "token_count": 121277,
+        "money_cost": 0.00242554
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:18:44.249403",
+        "token_count": 115052,
+        "money_cost": 0.00230104
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:18:57.355915",
+        "token_count": 114537,
+        "money_cost": 0.0022907400000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:19:09.006041",
+        "token_count": 125617,
+        "money_cost": 0.00251234
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:19:22.595747",
+        "token_count": 123371,
+        "money_cost": 0.00246742
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:19:34.942988",
+        "token_count": 113116,
+        "money_cost": 0.00226232
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:19:47.600905",
+        "token_count": 115633,
+        "money_cost": 0.00231266
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:20:01.795218",
+        "token_count": 111324,
+        "money_cost": 0.00222648
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:20:15.052156",
+        "token_count": 109947,
+        "money_cost": 0.00219894
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:20:27.601887",
+        "token_count": 113781,
+        "money_cost": 0.00227562
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:20:41.230443",
+        "token_count": 113787,
+        "money_cost": 0.00227574
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:20:54.955439",
+        "token_count": 108021,
+        "money_cost": 0.00216042
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:21:11.583142",
+        "token_count": 117883,
+        "money_cost": 0.0023576599999999997
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:21:24.485815",
+        "token_count": 107405,
+        "money_cost": 0.0021481
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:21:37.222585",
+        "token_count": 117916,
+        "money_cost": 0.00235832
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:21:51.088956",
+        "token_count": 117575,
+        "money_cost": 0.0023515
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:22:05.722852",
+        "token_count": 109522,
+        "money_cost": 0.00219044
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:22:18.360836",
+        "token_count": 125999,
+        "money_cost": 0.0025199800000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:22:31.460818",
+        "token_count": 114599,
+        "money_cost": 0.00229198
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:22:43.183913",
+        "token_count": 113391,
+        "money_cost": 0.0022678200000000003
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:22:54.881831",
+        "token_count": 122741,
+        "money_cost": 0.0024548200000000004
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:23:08.275291",
+        "token_count": 121106,
+        "money_cost": 0.00242212
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:23:21.638957",
+        "token_count": 115644,
+        "money_cost": 0.0023128800000000002
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:23:33.227135",
+        "token_count": 111636,
+        "money_cost": 0.00223272
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:23:45.895875",
+        "token_count": 111143,
+        "money_cost": 0.00222286
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:23:57.751209",
+        "token_count": 87584,
+        "money_cost": 0.00175168
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:24:17.117845",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:28:04.727135",
+        "token_count": 7,
+        "money_cost": 1.4e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:28:33.973135",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:28:50.711268",
+        "token_count": 3,
+        "money_cost": 6e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:29:06.448969",
+        "token_count": 3,
+        "money_cost": 6e-08
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:30:43.834383",
+        "token_count": 17,
+        "money_cost": 3.4000000000000003e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:31:32.812463",
+        "token_count": 11,
+        "money_cost": 2.2e-07
+    },
+    {
+        "embedding_model": "text-embedding-3-small",
+        "embedding_size": 1536,
+        "created_at": "2025-10-14 16:31:44.208978",
+        "token_count": 8,
+        "money_cost": 1.6e-07
+    }
+]
