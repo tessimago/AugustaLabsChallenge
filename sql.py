@@ -9,6 +9,9 @@ import tiktoken
 from tqdm import tqdm
 import time
 
+
+DATABASE_NAME = "augusta_labs_db"
+
 class PostgreSQLManager:
     def __init__(self, host='localhost', user='postgres', password='123', port=5432):
         self.connection_params = {
@@ -34,7 +37,7 @@ class PostgreSQLManager:
             print(f"Connection error: {e}")
             return None
     
-    def database_exists(self, db_name):
+    def database_exists(self):
         """Check if database already exists"""
         conn = self.get_connection(autocommit=True)
         if not conn:
@@ -44,7 +47,7 @@ class PostgreSQLManager:
             cursor = conn.cursor()
             cursor.execute(
                 "SELECT 1 FROM pg_catalog.pg_database WHERE datname = %s",
-                (db_name,)
+                (DATABASE_NAME,)
             )
             exists = cursor.fetchone() is not None
             cursor.close()
@@ -55,10 +58,10 @@ class PostgreSQLManager:
         finally:
             conn.close()
     
-    def create_database(self, db_name):
+    def create_database(self):
         """Create a new database"""
-        if self.database_exists(db_name):
-            print(f"Database '{db_name}' already exists.")
+        if self.database_exists(DATABASE_NAME):
+            print(f"Database '{DATABASE_NAME}' already exists.")
             return True
         
         conn = self.get_connection(autocommit=True)
@@ -68,10 +71,10 @@ class PostgreSQLManager:
         try:
             cursor = conn.cursor()
             create_query = sql.SQL("CREATE DATABASE {}").format(
-                sql.Identifier(db_name)
+                sql.Identifier(DATABASE_NAME)
             )
             cursor.execute(create_query)
-            print(f"✅ Database '{db_name}' created successfully!")
+            print(f"✅ Database '{DATABASE_NAME}' created successfully!")
             return True
         except psycopg2.Error as e:
             print(f"❌ Error creating database: {e}")
@@ -80,9 +83,9 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
     
-    def create_table(self, db_name, table_name, table_schema):
+    def create_table(self, table_name, table_schema):
         """Create a table in the specified database"""
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
         # Check if table already exists
@@ -100,9 +103,9 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
     
-    def verify_database(self, db_name):
+    def verify_database(self):
         """Verify database creation and contents"""
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
         
@@ -137,14 +140,14 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
 
-    def insert_csv_incentives(self, db_name: str, file_path: str):
+    def insert_csv_incentives(self, file_path: str):
         """Insert multiple incentives from a CSV file into the incentives table"""
         incentives = read_csv(file_path)
         if not incentives:
             print("No incentives to insert.")
             return False
         
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
 
@@ -178,14 +181,14 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
 
-    def insert_csv_companies(self, db_name: str, file_path: str, chunk_size: int = 1000):
+    def insert_csv_companies(self, file_path: str, chunk_size: int = 1000):
         """Insert multiple companies from a CSV file into the companies table in chunks"""
         companies = read_csv(file_path)
         if not companies:
             print("No companies to insert.")
             return False
         
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
 
@@ -276,9 +279,9 @@ class PostgreSQLManager:
         return companies
 
 
-    def check_pgvector(self, db_name: str):
+    def check_pgvector(self):
         query = "SELECT * FROM pg_available_extensions WHERE name = 'vector';"
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
         cursor = conn.cursor()
@@ -294,10 +297,10 @@ class PostgreSQLManager:
             print(f"Error checking pgvector: {e}")
             return False
 
-    def query_companies_with_embedding(self, db_name: str, user_query: str, top_k: int = 5):
+    def query_companies_with_embedding(self, user_query: str, top_k: int = 5):
         """Query companies based on embedding similarity with the query string"""
         time_start = time.time()
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         
         # embedding for the query
         embedding_query = self.embedder.get_embedding(user_query, model="text-embedding-3-small")['embedding'][0].embedding
@@ -343,9 +346,9 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
     
-    def query_incentives_by_id(self, db_name: str, id: int):
+    def query_incentives_by_id(self, id: int):
         """Query incentives by ID"""
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
 
@@ -392,9 +395,9 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
     
-    def query_incentives_by_name(self, db_name: str, incentive_title: str, threshold: float = 0.0):
+    def query_incentives_by_name(self, incentive_title: str, threshold: float = 0.0):
         """Query incentives by name using fuzzy matching with trigram similarity"""
-        conn = self.get_connection(database=db_name)
+        conn = self.get_connection(database=DATABASE_NAME)
         if not conn:
             return False
 
@@ -427,7 +430,7 @@ class PostgreSQLManager:
                 formatted_results = []
                 for row in results:
                     formatted_results.append({
-                        "id": row[0],
+                        "incentive_id": row[0],
                         "title": row[1],
                         "description": row[2], 
                         "ai_description": row[3],
@@ -450,7 +453,13 @@ class PostgreSQLManager:
             cursor.close()
             conn.close()
         
-
+TEST_COMPANIES_N = 1000
+DB_CONFIG = {
+    'host': 'localhost',
+    'user': 'postgres',
+    'password': '123',
+    'port': 5432
+}
     
 
 def read_csv(file_path: str, test: bool = False) -> list:
@@ -465,7 +474,6 @@ def read_csv(file_path: str, test: bool = False) -> list:
     except Exception as e:
         print(f"❌ Error reading CSV file: {e}")
         return []
-
 
 def check_token_number_companies():
     companies = read_csv('csvs/companies.csv')
@@ -572,8 +580,6 @@ def main():
     
     print(f"\n🎉 Database '{DATABASE_NAME}' setup completed successfully!")
 
-
-# Additional utility functions
 def drop_database(db_name, connection_params):
     """Drop a database (use with caution!)"""
     db_manager = PostgreSQLManager(**connection_params)
@@ -698,8 +704,6 @@ def list_elements_in_table(db_name, table_name, connection_params, limit=5):
             cursor.close()
             conn.close()
 
-
-
 def query_companies(database: PostgreSQLManager, user_query: str):
     results = database.query_companies_with_embedding("augusta_labs_db", user_query, top_k=5)
     if results:
@@ -712,24 +716,8 @@ def query_incentives_by_name(database: PostgreSQLManager, user_query: str):
         for res in results:
             print(res['title'], res['similarity_score'])
 
-TEST_COMPANIES_N = 1000
-DATABASE_NAME = "augusta_labs_db"
-DB_CONFIG = {
-    'host': 'localhost',
-    'user': 'postgres',
-    'password': '123',
-    'port': 5432
-}
+
+
 if __name__ == "__main__":
-    #check_token_number_companies()
-    #exit()
-    database = PostgreSQLManager(**DB_CONFIG)
-    # drop_all_tables("augusta_labs_db", DB_CONFIG)
-    # drop_table(DATABASE_NAME, "incentives", DB_CONFIG)
-    # add_incentives_table(database)
-    # add_companies_table(database)
-    # main()
-    # Query companies with embedding
-    # query_companies(database, "Empresas de produção de pão")
+    # database = PostgreSQLManager(**DB_CONFIG)
     query_incentives_by_name(database, "Ensino")
-    # list_elements_in_table("augusta_labs_db", "companies", DB_CONFIG, limit=3)

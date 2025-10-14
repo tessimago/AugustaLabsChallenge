@@ -65,7 +65,7 @@ I guess the chunks will be easier to separate, no overlap needed as well, hmm.. 
 -> 00:30 - 09:30
 Procrastination and Sleep
 
-October 14, 2025
+October 14, 2025  (Counting the day after I wake up)
 
 -> 09:30 - 10:00
 Back to the computer, see some videos on Postgres with Rag and see if I can save embedings there
@@ -128,4 +128,42 @@ I guess I could ask to find by id or by name, and then do the rest..
 Ok I made querying by name and id possible.. as well as querying the companies.. now I just need to bundle all of that I suppose
 Also filled all 250k embeddings of the companies, it took some time... but at least now if one wants to add a company, it only has to embedd that information once.
 
--> 16:45 - 
+-> 16:45 - 17:45
+Ok made a basic conversation cycle with an API
+Started working on the tool calling thing, so it can make calls to the database and add to the context before answering
+
+-> 17:45 - 18:20
+Break, I'm hungry and tired
+
+-> 18:20 - 20:00
+Ok almost done with the chatbot cycle, he can now answer things about companies, incentives, incentives given its id, ...
+Now I just need the last part, companies by incentive...
+(and yeah this took longer than expected because i was tweaking with the prompts and blablabla)
+
+-> 20:00 - 20:25
+Procrastinating messaging my gf
+
+-> 20:25 - 21:00
+Ok technically it's """"done""""
+Since it can now answer everything, i guess,... i hope..
+Now i suppose i need to do figure out what does "output do matching em csv" mean.. like do they want a web response gpt-like that delivers a file with the answers? Do they want an external matching csv file? 
+
+-> 21:00 - 21:15
+Hmm.. maybe i'm cooked, i kinda missed the small words: "a avaliação da correspondência não deve ser meramente subjetiva, devendo basear-se em critérios claros que assegurem consistência na análise."
+
+I suppose the evaluation is very subjective rn.. I mean it's subjective if the evaluation is subjective (lol), but idk do they want me to filter results based on deterministic things?
+
+The only way I can think of doing that is by including some of the "all data" form the incentives on the db, but the table format they gave me didn't had a space for that.. hmm.. I might ask for help here..
+
+-> 21:15 - 22:15
+Having dinner, washing dishes, blablabla
+
+-> 22:15 - 23:30
+Ok imma make the questions I have to them now on whatsapp, maybe they'll clarify if I'm cooked or if I'm doing great..
+while they don't answer imma look into the cost tokens per conversation, to see if I can make some predictions of how much would cost and stuff
+
+Yup ok I guess I'll have to put this s*it in a docker.. ARR i hate docker. (*cof* of course if needed for the job i'll simply study it again and refresh what I learned before, or something)
+Don't even know where to start.
+
+-> 23:30 - ???
+Guess I'll spend the next hours putting this in a docker, as well as making a big csv file with the incentive - 5 best companies.
