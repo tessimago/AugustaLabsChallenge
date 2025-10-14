@@ -62,7 +62,37 @@ Maybe or maybe not used deepseek to help me around sql (i never needed to learn 
 Going to sleep thinking about how will I even make this work, should I save the embedings on postgres? is that even possible? I only used Chroma so far, i guess its another question to deepseek..
 I guess the chunks will be easier to separate, no overlap needed as well, hmm.. I have a feeling the rag will do a terrible job and I'll need to improv a better solution or something.
 
--> 00:30 - 08:30
-Sleep
+-> 00:30 - 09:30
+Procrastination and Sleep
 
+October 14, 2025
 
+-> 09:30 - 10:00
+Back to the computer, see some videos on Postgres with Rag and see if I can save embedings there
+Hmmmmm maybe I'll create another collumn to put embeddings on the companies.. but should I also make in the incentives? seems like they gave a fixed format for the incentives... idk maybe i'll do it anyways... or maybe not because the challenge is clear, they want to identify companies based on incentives..
+"Para cada incentivo, identificar e listar automaticamente as 5 empresas"
+And also the wording on the chatbot is different for incentives and companies..
+"
+- *obter* informação sobre os incentivos,
+- *consultar* dados sobre empresas,
+"
+Maybe, I could put an UI where the user can choose the incentive, therefore "obtaining" info about it, and then consulting info from the companie only when matched with the incentive (?)
+Also again in requirements it says:
+"<0.30$ para identificar as 5 melhores *empresas por incentivo*."
+So it's becoming even more clear that I might just want embedings on companies.. but we'll see
+I also need to think later about scaling, there seems to be 2 types of scaling.. one where we add more companies/incentives, and other where we add more tables (e.g. illegalities on companies, then that would match with companies or something...), not quite sure how I would do the second one but anyways.. maybe it's not that hard.
+
+-> 10:00 - 10:30
+Testing embeddings from different models, and also OpenAI models with your key
+I'll make a class to track how much I'm spending because... I don't really know how to see how much I have left
+
+-> 10:30 - 10:40
+Break
+
+-> 10:40 - 11:15
+Ok, made a class embedder to call openai embedder and to keep track of how much I spent in tokens and money (excluding batch calls, so the total money may be less)
+
+-> 11:15 - ??
+Gonna prepare lunch now, while thinking and searching on how to make this work now on postgres, seems to easy to just throw the embeddings on a table togheter with the companies...
+From what i'm looking, I need a pgvector extension, sounds incredibly usefull. No ideia how to get it tho.
+Gonna see some videos on how to setup that..

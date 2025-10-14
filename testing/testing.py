@@ -7,6 +7,17 @@ from langchain.chains.retrieval import create_retrieval_chain
 from langchain_chroma import Chroma
 from api import API
 from langchain.schema.runnable import Runnable
+import random
+from tqdm import tqdm
+import os
+from dotenv import load_dotenv
+from openai import OpenAI
+import time
+from embedder import OpenAIEmbeder
+import json
+# Load environment variables from .env file
+load_dotenv()
+
 
 def ingest():
     # Get the doc
@@ -14,15 +25,16 @@ def ingest():
     pages = loader.load_and_split()
     # Split the pages by char
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=512,
-        chunk_overlap=100,
+        chunk_size=1024,
+        chunk_overlap=200,
         length_function=len,
         add_start_index=True,
     )
     chunks = text_splitter.split_documents(pages)
     print(f"Split {len(pages)} documents into {len(chunks)} chunks.")
     
-    embedding = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    embedding = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+    
     # Create vector store
     Chroma.from_documents(documents=chunks,  embedding=embedding, persist_directory="./sql_chroma_db")
 
@@ -38,7 +50,8 @@ def rag_chain(model: API) -> Runnable:
         """
     )
     # Load vector store
-    embedding = FastEmbedEmbeddings(model_name="BAAI/bge-small-en-v1.5")
+    embedding = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5")
+    # print size of embedding
     vector_store = Chroma(persist_directory="./sql_chroma_db", embedding_function=embedding)
 
     # Create chain
@@ -46,11 +59,11 @@ def rag_chain(model: API) -> Runnable:
         search_type="similarity_score_threshold",
         search_kwargs={
             "k": 3,
-            "score_threshold": 0.5,
+            "score_threshold": 0.2,
         },
     )
 
-    temp_prompt = "What article talks about Requirements and duration?"
+    temp_prompt = "Knowledge of concurrence after the crime"
     docs = retriever.get_relevant_documents(temp_prompt)
     print("-------") # Testing stuff with rag.. irrelevant to the challenge
     for d in docs:
@@ -58,8 +71,11 @@ def rag_chain(model: API) -> Runnable:
         print("-------")
     return None
 
+
 if __name__ == "__main__":
     # ingest()
+
+    exit()
     deepseek_api = API()
     rag_chain(deepseek_api)
     

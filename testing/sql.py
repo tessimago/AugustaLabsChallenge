@@ -1,8 +1,9 @@
 import psycopg2
 from psycopg2 import sql
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
-import sys
+from langchain_community.embeddings.fastembed import FastEmbedEmbeddings
 import pandas as pd
+import sys
 
 class PostgreSQLManager:
     def __init__(self, host='localhost', user='postgres', password='123', port=5432):
@@ -185,15 +186,16 @@ class PostgreSQLManager:
         try:
             cursor = conn.cursor()
             insert_query = """
-                INSERT INTO companies (company_name, cae_primary_label, trade_description_native, website)
-                VALUES (%s, %s, %s, %s)
+                INSERT INTO companies (company_name, cae_primary_label, trade_description_native, website, embeddings)
+                VALUES (%s, %s, %s, %s, %s)
             """
             for data in companies:
                 cursor.execute(insert_query, (
                     data.get("company_name"),
                     data.get("cae_primary_label"), 
                     data.get("trade_description_native") if not isinstance(data.get("trade_description_native"), float) else None,
-                    data.get("website") if not isinstance(data.get("website"), float) else None
+                    data.get("website") if not isinstance(data.get("website"), float) else None,
+                    data.get("embeddings") if not isinstance(data.get("embeddings"), float) else None
                 ))
             conn.commit()
             print(f"✅ Inserted {len(companies)} companies from CSV successfully!")
@@ -251,7 +253,8 @@ def main():
             company_name TEXT NOT NULL,
             cae_primary_label TEXT,
             trade_description_native TEXT,
-            website TEXT
+            website TEXT,
+
         )
     """
 
@@ -348,10 +351,32 @@ def list_databases(connection_params):
             cursor.close()
             conn.close()
 
+def list_elements_in_table(db_name, table_name, connection_params, limit=5):
+    """List elements in a specified table"""
+    db_manager = PostgreSQLManager(**connection_params)
+    conn = db_manager.get_connection(database=db_name)
+    
+    if conn:
+        try:
+            cursor = conn.cursor()
+            cursor.execute(sql.SQL("SELECT * FROM {} LIMIT %s").format(
+                sql.Identifier(table_name)
+            ), (limit,))
+            rows = cursor.fetchall()
+            print(f"📋 Sample data from '{table_name}' table:")
+            for row in rows:
+                print(row)
+        except psycopg2.Error as e:
+            print(f"Error listing elements in table: {e}")
+        finally:
+            cursor.close()
+            conn.close()
+
 
 
 if __name__ == "__main__":
     DB_CONFIG = {'host': 'localhost', 'user': 'postgres', 'password': '123'}
-    drop_database("augusta_labs_db", DB_CONFIG)
+    # drop_database("augusta_labs_db", DB_CONFIG)
 
-    main()
+    # main()
+    list_elements_in_table("augusta_labs_db", "companies", DB_CONFIG, limit=3)
