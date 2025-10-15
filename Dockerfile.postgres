@@ -1,0 +1,4 @@
+FROM pgvector/pgvector:pg18
+
+COPY db_backup.sql /docker-entrypoint-initdb.d/
+

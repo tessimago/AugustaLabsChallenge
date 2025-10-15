@@ -173,3 +173,6 @@ I had to make a server so I could connect to the docker server by using my cmd l
 -> 3:00 - 4:00
 Ok, final tweaks on some stuff done, the csv is created, I was also searching on how to send this to them, but I guess it will be by using git and they run the docker commands or something
 
+-> 4:00 - 4:10
+Well I can't put this on git bcz the db is over 2G (it's 4.57GB)
+So.... idk what to do.
