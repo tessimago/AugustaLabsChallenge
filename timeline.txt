@@ -176,3 +176,23 @@ Ok, final tweaks on some stuff done, the csv is created, I was also searching on
 -> 4:00 - 4:10
 Well I can't put this on git bcz the db is over 2G (it's 4.57GB)
 So.... idk what to do.
+
+-> 4:10 - 5:00
+yeah i officially hate docker, there's always a problem that takes ages to solve with stupid setup settings or something
+
+-> 5:00 - 5:40
+Last test before going to sleep
+docker-compose -f docker-compose.production.yml down -v
+docker-compose -f docker-compose.production.yml up 
+Spoiler, didn't work
+
+October 15, 2025
+
+-> 11:00 - 12:00
+Tutoring the neighbour again, also woke up late (wonder why)
+
+-> 12:00 - 12:40
+Well, let's keep trying to put this working on docker i guess
+
+I suppose I just needed a night of sleep for this to work,
+now Imma push this to git and see if it works on my laptop, and also do a Readme file

@@ -1,4 +1,7 @@
 FROM pgvector/pgvector:pg18
 
-COPY db_backup.sql /docker-entrypoint-initdb.d/
+# Copy the dump file
+COPY db_backup.dump /tmp/
 
+# Copy a restore script
+COPY restore-db.sh /docker-entrypoint-initdb.d/

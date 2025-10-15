@@ -39,4 +39,5 @@ Thumbs.db
 # Environment variables
 .env
 
-*.sqldb_backup.sql
+*.sql
+*.dump
