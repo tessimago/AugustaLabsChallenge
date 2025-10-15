@@ -196,3 +196,18 @@ Well, let's keep trying to put this working on docker i guess
 
 I suppose I just needed a night of sleep for this to work,
 now Imma push this to git and see if it works on my laptop, and also do a Readme file
+
+-> 12:40 - 14:25
+I wasn't working on my other computer, using docker, how ironic.
+Ok I eventually fixed it, it was something about the volume idk, it was working on the other machine I had, I hope it works on yours as well.
+I think this finishes my MVP project or something, if I had more time I would probably do a pretty web thingy with "thinking" or "searching" whenever the chatbot searches on the database.
+
+-> 14:25 - 15:00
+Nevermind I forgot I still had my deepseek api key instead of their gpt key, gotta update my docker hub image
+
+-> 15:00 - 16:00
+Lunch, with family, outside (yes i touch grass, sometimes)
+
+-> 16:00 - 17:00
+Trying not to die while using docker (I almost don't have space on my computer so it's always crashing)
+I think i finally did it, and put the gpt instead of deepseek and updated the docker image on docker hub

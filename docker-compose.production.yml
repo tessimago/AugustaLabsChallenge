@@ -28,6 +28,8 @@ services:
       - DB_USER=postgres
       - DB_PASSWORD=123
       - DB_NAME=augusta_labs_db
+    volumes:
+      - .:/app
     ports:
       - "8000:8000"
 

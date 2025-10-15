@@ -11,7 +11,7 @@ load_dotenv()
 
 class API():
     
-    def __init__(self, model_name: str = "deepseek-chat"):
+    def __init__(self, model_name: str = "gpt-4o-mini"):
         if model_name.startswith("deepseek"):
             self.client = OpenAI(
                 api_key=os.getenv("MY_DEEPSEEK_API_KEY"),
