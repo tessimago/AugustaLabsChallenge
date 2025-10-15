@@ -11,8 +11,18 @@ load_dotenv()
 
 class API():
     
-    def __init__(self):
-        self.client = OpenAI(api_key=os.getenv('MY_DEEPSEEK_API_KEY'), base_url="https://api.deepseek.com")
+    def __init__(self, model_name: str = "deepseek-chat"):
+        if model_name.startswith("deepseek"):
+            self.client = OpenAI(
+                api_key=os.getenv("MY_DEEPSEEK_API_KEY"),
+                base_url="https://api.deepseek.com"
+            )
+        else:
+            self.client = OpenAI(
+                api_key=os.getenv("THEIR_GPT_API_KEY")
+                # base_url default (OpenAI's official)
+            )
+        self.model = model_name
         self.conversation_token_history = []  # I was thinking later use this to put on a graph or something
 
     def __call__(self, *args, **kwds):
@@ -34,7 +44,7 @@ class API():
 
     def call(self, prompt: str, system: str = "You are a helpful assistant"):
         response = self.client.chat.completions.create(
-            model="deepseek-chat",
+            model=self.model,
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": prompt}
@@ -45,7 +55,7 @@ class API():
     
     def converse(self, messages: List[Dict[str, str]]) -> str:
         response: ChatCompletion = self.client.chat.completions.create(
-            model="deepseek-chat",
+            model=self.model,
             messages=messages,
             stream=False
         )
@@ -59,7 +69,7 @@ class API():
 
 
 def conversation_cycle():
-    api = API()
+    api = API("gpt-4o-mini")
     messages = [
         {"role": "system", "content": "You are a helpful assistant"}
     ]

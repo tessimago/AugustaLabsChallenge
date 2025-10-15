@@ -8,18 +8,21 @@ from embedder import OpenAIEmbeder
 import tiktoken
 from tqdm import tqdm
 import time
+import os
+import json
 
 
 DATABASE_NAME = "augusta_labs_db"
 
 class PostgreSQLManager:
-    def __init__(self, host='localhost', user='postgres', password='123', port=5432):
+    def __init__(self, host=os.getenv('DB_HOST', 'localhost'), user='postgres', password='123', port=5432):
         self.connection_params = {
             'host': host,
             'user': user,
             'password': password,
             'port': port
         }
+        # print(f"Connection parameters: \n{json.dumps(self.connection_params, indent=4)}")
         self.embedder = OpenAIEmbeder()
     
     def get_connection(self, database='postgres', autocommit=False):
@@ -337,7 +340,7 @@ class PostgreSQLManager:
                     'distance_score': row[4]
                 })
             time_end = time.time() - time_start
-            print(f"🕒 Query took {time_end:.2f} seconds.")
+            # print(f"🕒 Query took {time_end:.2f} seconds.")
             return formatted_results
         except psycopg2.Error as e:
             print(f"❌ Error executing query: {e}")
@@ -452,14 +455,35 @@ class PostgreSQLManager:
         finally:
             cursor.close()
             conn.close()
-        
+    
+    def general_query(self, query: str):
+        """Execute a general query on the database"""
+        conn = self.get_connection(database=DATABASE_NAME)
+        if not conn:
+            return False
+
+        try:
+            cursor = conn.cursor()
+            cursor.execute(query)
+            results = cursor.fetchall()
+            print(f"✅ Query executed successfully!")
+            return results
+        except psycopg2.Error as e:
+            print(f"❌ Error executing query: {e}")
+            return False
+        finally:
+            cursor.close()
+            conn.close()
+
+
 TEST_COMPANIES_N = 1000
 DB_CONFIG = {
-    'host': 'localhost',
+    'host': os.getenv('DB_HOST', 'localhost'),
     'user': 'postgres',
     'password': '123',
     'port': 5432
 }
+# print(f"📊 Database configuration:\n{json.dumps(DB_CONFIG, indent=4)}")
     
 
 def read_csv(file_path: str, test: bool = False) -> list:
@@ -719,5 +743,5 @@ def query_incentives_by_name(database: PostgreSQLManager, user_query: str):
 
 
 if __name__ == "__main__":
-    # database = PostgreSQLManager(**DB_CONFIG)
+    database = PostgreSQLManager(**DB_CONFIG)
     query_incentives_by_name(database, "Ensino")

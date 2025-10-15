@@ -135,7 +135,7 @@ def get_company_by_title(title: str, top_k: int = 3) -> str:
         print(f"Error querying database: {e}")
         return "Error querying database"
 
-def get_companies_by_incentive(incentive_id: str) -> str:
+def get_companies_by_incentive(incentive_id: str, on_string: bool = True) -> str:
     incentive_info = get_incentive_by_id(incentive_id)
     prompt = f"""
     You have this incentive information: \n{incentive_info}\n
@@ -146,14 +146,17 @@ def get_companies_by_incentive(incentive_id: str) -> str:
         "Empresas de distribuição de gás"
         "Estradas, Rodovias, Escolas"
         "Digitalização, Tecnologia, Cidadãos"
-    Do not put very long queries, do not surpass 3 words on the query (excluding articles).
+    Do not put very long queries, do not surpass 3 words on the query (excluding articles), but also don't put only one thing.
     Do not put any irrelevant information like "Isenção Fiscal" since its a query to find companies, and those keywords do not help on that.
     Now generate your query (in portuguese).
     Your response may only be the generated query, nothing else. NO bold, and NO prefix like "Query: ..."
     """
     query = model_helper.call(prompt, system="You are a helpful assistant to create a query for a database.")
-    print(f"[DEBUG] Query: {query}")
-    companies = get_company_by_title(query, 5)
+    # print(f"[DEBUG] Query: {query}")
+    if on_string:
+        companies = get_company_by_title(query, 5)
+    else:
+        companies = database.query_companies_with_embedding(query, 5)
     return companies
 
 

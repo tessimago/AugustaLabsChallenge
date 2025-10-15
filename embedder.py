@@ -15,6 +15,7 @@ class OpenAIEmbeder:
         print(f"Total spent on embeddings so far: ${spent:.6f}")
 
     def save_embedding_to_history(self, embedding: dict) -> None:
+        return
         # Save embedding details to a JSON file for tracking
         try:
             if os.path.exists(self.history_file):

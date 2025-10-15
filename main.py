@@ -30,7 +30,7 @@ Se uma função for chamada para dar informação, dá uma resposta simples e pe
 """.strip()
 
 def main():
-    api = API()
+    api = API("gpt-4o-mini")
     messages = []
     api.add_system_prompt(ASSISTENT_SYSTEM_PROMPT, messages)
     while True:

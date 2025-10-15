@@ -165,5 +165,11 @@ while they don't answer imma look into the cost tokens per conversation, to see 
 Yup ok I guess I'll have to put this s*it in a docker.. ARR i hate docker. (*cof* of course if needed for the job i'll simply study it again and refresh what I learned before, or something)
 Don't even know where to start.
 
--> 23:30 - ???
+-> 23:30 - 3:00
 Guess I'll spend the next hours putting this in a docker, as well as making a big csv file with the incentive - 5 best companies.
+ok now it's 3 am and I finally put docker working with this s*it
+I had to make a server so I could connect to the docker server by using my cmd locally, "streaming" chunks via fastapi was also a pain, had to use claude ai to help on almost everything now bcz i'm getting tired and I hate docker setups, or any setup for that matter
+
+-> 3:00 - 4:00
+Ok, final tweaks on some stuff done, the csv is created, I was also searching on how to send this to them, but I guess it will be by using git and they run the docker commands or something
+
