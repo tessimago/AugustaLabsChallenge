@@ -14,8 +14,6 @@ docker-compose -f docker-compose.production.yml up
 
 # 3. IMPORTANTE - Aguarde a mensagem: "rag_postgres  | PostgreSQL init process complete; ready for start up." (deve demorar entre 1 a 2 minutos)
 
-# 4. Cria um .env file com as seguintes entradas:
-
 # 4. Abre um terminal local na pasta fonte do projeto, e roda
 python testing.py
 
